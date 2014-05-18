@@ -84,9 +84,19 @@ alma_vlbi_latest.to_excel('/home/itoledo/Downloads/latestmeasurements.xls')
 
 pd.options.display.max_columns = 40
 
+# New dataframe to be updated in the archive
+alma_vlbi.ra_err = alma_vlbi.ra_err / 3600000.
+alma_vlbi.dec_err = alma_vlbi.dec_err / 3600000
+new_alma = alma_vlbi[[u'measurement_id', u'catalogue_id', u'source_id', u'RA_vlbi', u'ra_err', u'DEC_vlbi', u'dec_err',
+                      u'frequency', u'flux', u'flux_uncer', u'degree', u'degree_uncer', u'angle', u'angle_uncer',
+                      u'extension', u'fluxratio', u'origin', u'date_observed', u'date_created', u'valid', u'uvmin',
+                      u'uvmax']]
+new_alma.to_excel('/home/itoledo/Downloads/new_alma_measurements.xls')
+
 # Recipe to get sources not observed in the last year
 
-non_grid = alma_vlbi_latest.query('date_observed < "2013-10-01"')
+#non_grid = alma_vlbi_latest.query('date_observed < "2013-10-01"')
 
-g4 = non_grid.query('frequency < 1.30e+11 and RA >=30 and RA < 60')[['source_id', 'name', 'ra_h', 'ra_m', 'ra_s', 'dec_d', 'dec_m', 'dec_s', 'frequency', 'flux']]
-str(g4.name.tolist()).replace('\'','').replace(', ',',').replace('J','j')
+#g4 = non_grid.query('frequency < 1.30e+11 and RA >=30 and RA < 60')[['source_id', 'name', 'ra_h', 'ra_m', 'ra_s', 'dec_d', 'dec_m', 'dec_s', 'frequency', 'flux']]
+#str(g4.name.tolist()).replace('\'','').replace(', ',',').replace('J','j')
+
