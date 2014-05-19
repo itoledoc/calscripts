@@ -91,7 +91,9 @@ new_alma = alma_vlbi[[u'measurement_id', u'catalogue_id', u'source_id', u'RA_vlb
                       u'frequency', u'flux', u'flux_uncer', u'degree', u'degree_uncer', u'angle', u'angle_uncer',
                       u'extension', u'fluxratio', u'origin', u'date_observed', u'date_created', u'valid', u'uvmin',
                       u'uvmax']]
+new_alma.columns = measurements.columns
 new_alma.to_excel('/home/itoledo/Downloads/new_alma_measurements.xls')
+new_alma.to_csv('/home/itoledo/Downloads/alma_corr.csv')
 
 # Recipe to get sources not observed in the last year
 
