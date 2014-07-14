@@ -1,0 +1,204 @@
+Event result uid scan 
+PointingReducedEvent: FAIL uid://A002/X82e118/X1010 1 
+1  "uid://A002/X82e118/X1010 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/X1166 1 
+1  "uid://A002/X82e118/X1166 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/X11d6 1 
+1  "uid://A002/X82e118/X11d6 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X124b 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X124b 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 5 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X124b 5 
+8  "uid://A002/X82e118/X124b Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/X124c 1 
+1  "uid://A002/X82e118/X124c Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/X1292 1 
+1  "uid://A002/X82e118/X1292 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/X13a0 1 
+1  "uid://A002/X82e118/X13a0 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/X13b5 1 
+1  "uid://A002/X82e118/X13b5 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X1494 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X1494 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/X1494 6 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X1494 8 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 9 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 9 
+17  "uid://A002/X82e118/X1494 Count"  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X34 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X34 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X34 1 
+3  "uid://A002/X82e118/X34 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X397 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X397 1 
+2  "uid://A002/X82e118/X397 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X3dd 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X3dd 1 
+2  "uid://A002/X82e118/X3dd Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X426 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X426 1 
+2  "uid://A002/X82e118/X426 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X485 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X485 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X485 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X485 2 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X485 2 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X485 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X485 3 
+FocusReducedEvent: SUCCESS uid://A002/X82e118/X485 3 
+8  "uid://A002/X82e118/X485 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X51c 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X51c 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 4 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X51c 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X51c 5 "Missing CAL_WVR scan 6"
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X51c 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 8 
+12  "uid://A002/X82e118/X51c Count"  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X5d 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X5d 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X5d 1 
+3  "uid://A002/X82e118/X5d Count"  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X6e 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X6e 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X6e 1 
+3  "uid://A002/X82e118/X6e Count"  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X81 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X81 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X81 1 
+3  "uid://A002/X82e118/X81 Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X815 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/X815 6 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X815 8 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 9 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 9 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 10 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 11 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 11 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 12 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 12 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/X815 12 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 13 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 13 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 14 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 14 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 16 "Missing CAL_VWR, CAL_DELAY scan 15"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 16 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 17 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 18 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 18 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 19 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 20 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 20 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/X815 20 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 21 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 21 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 22 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 23 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 23 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/X815 23 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 24 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 24 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 25 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 26 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X815 26 
+47  "uid://A002/X82e118/X815 Count"  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X9a 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X9a 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X9a 1 
+3  "uid://A002/X82e118/X9a Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xb5b 1 
+1  "uid://A002/X82e118/Xb5b Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xb7c 1 
+1  "uid://A002/X82e118/Xb7c Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xc1a 1 
+1  "uid://A002/X82e118/Xc1a Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xc45 1 
+1  "uid://A002/X82e118/Xc45 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xcd8 1 
+1  "uid://A002/X82e118/Xcd8 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xcf9 1 
+1  "uid://A002/X82e118/Xcf9 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xd4a 1 
+1  "uid://A002/X82e118/Xd4a Count"  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/Xd68 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/Xd68 6 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 8 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 9 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 9 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 10 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 11 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 11 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 12 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 12 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/Xd68 12 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 13 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 13 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 14 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 14 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 16 "Missing CAL_VWR, CAL_DELAY scan 15"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 16 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 17 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 18 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 18 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 19 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 20 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 20 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/Xd68 20 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 21 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 21 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 22 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 23 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 23 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/Xd68 23 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 24 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 24 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 25 
+45  "uid://A002/X82e118/Xd68 Count"  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xe41 1 
+1  "uid://A002/X82e118/Xe41 Count"  
+173  "Grand Total"  

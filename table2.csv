@@ -1,0 +1,688 @@
+Event Result UID Scan 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82abd7/X121 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X121 1 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X121 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X134 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X134 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X159 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X159 1 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X159 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X159 2 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X159 2 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X159 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 1 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 2 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 2 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 3 
+FocusReducedEvent: SUCCESS uid://A002/X82abd7/X1ba 3 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X22b 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X22b 1 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X22b 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X22b 2 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X22b 2 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X22b 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X22b 3 
+FocusReducedEvent: SUCCESS uid://A002/X82abd7/X22b 3 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X28c 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X28c 3 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 4 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 4 
+BandPassReducedEvent: SUCCESS uid://A002/X82abd7/X28c 4 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X28c 5 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 6 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 6 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X28c 7 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 9 "Missing CAL_WVR, scan 8"
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 10 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 11 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 12 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 13 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 14 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 15 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 16 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 17 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 17 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 18 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 19 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 20 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 21 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 22 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 23 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 24 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 25 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 26 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 26 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/X28c 26 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 27 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 28 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 29 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 30 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 31 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 32 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 33 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 34 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 35 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X28c 35 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 37 "Missing Cal_Phase, CAL_WVR, scan 36"
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 38 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 39 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 40 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 41 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 42 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 43 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 44 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 45 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 45 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/X28c 45 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 46 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 47 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 48 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 49 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 50 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 51 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 52 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 53 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 54 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 54 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/X28c 54 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 55 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 56 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 57 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 58 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 59 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 60 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 61 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 62 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 63 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X28c 63 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 65 "Missing Cal_Phase, CAL_WVR, scan 64"
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 66 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 67 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 68 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 69 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 70 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 71 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 72 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 73 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 73 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/X28c 73 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 74 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 75 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 76 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 77 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X28c 78 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X28c 78 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/X28c 78 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 1 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 2 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 2 
+DelayReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 3 
+FocusReducedEvent: SUCCESS uid://A002/X82abd7/X4d4 3 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X537 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X537 3 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 4 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X537 5 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X537 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82abd7/X537 6 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X537 7 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82abd7/X537 8 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 20 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 21 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X537 21 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/X537 21 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X537 22 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/X835 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X835 3 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 4 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X835 5 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/X835 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82abd7/X835 6 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/X835 7 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82abd7/X835 8 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/X835 22 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 1 
+PointingReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 1 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 2 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 3 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 4 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 5 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 6 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 7 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 8 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 22 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 22 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 22 
+WVRReducedEvent: SUCCESS uid://A002/X82abd7/Xb39 23 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X1 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X1 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X1 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X15b 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X15b 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X15b 2 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X1c7 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X1c7 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X1c7 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X1cb 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X1cb 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X1cb 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X21a 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X21a 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X21a 2 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X26a 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X26a 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X26a 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X26e 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X26e 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X26e 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X2bd 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X2bd 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X2bd 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/X339 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X339 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 2 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/X339 2 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X339 2 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 3 
+FocusReducedEvent: SUCCESS uid://A002/X82b2f1/X339 3 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 4 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/X339 4 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X339 4 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 5 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X339 5 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 6 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X339 6 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X339 7 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X339 7 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/X5 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 2 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/X5 3 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 4 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/X5 5 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X5 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82b2f1/X5 6 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/X5 7 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X5 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X5 8 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X75 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X75 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X75 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X79 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X79 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X79 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X7d 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X7d 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X7d 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82b2f1/X81 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/X81 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/X81 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/X86 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/X86 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xa0 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/Xa0 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xa0 2 
+FocusReducedEvent: SUCCESS uid://A002/X82b2f1/Xa0 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 1 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 2 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 2 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 2 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 3 
+FocusReducedEvent: SUCCESS uid://A002/X82b2f1/Xa16 3 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 2 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 3 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 4 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 4 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 5 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 7 "Missing CAL_WVR, scan 6"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 7 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xab7 8 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xcf 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/Xcf 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xcf 2 
+FocusReducedEvent: SUCCESS uid://A002/X82b2f1/Xcf 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 1 
+PointingReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 2 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 3 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 4 
+DelayReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 4 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 5 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 7 "Missing CAL_WVR, scan 6"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 7 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xd87 8 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xfb 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82b2f1/Xfb 1 
+WVRReducedEvent: SUCCESS uid://A002/X82b2f1/Xfb 2 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X1010 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X1166 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X11d6 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X124b 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X124b 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X124b 5 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X124b 5 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X124c 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X1292 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X13a0 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/X13b5 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X1494 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X1494 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/X1494 6 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X1494 8 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X1494 9 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X1494 9 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X34 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X34 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X34 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X397 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X397 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X3dd 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X3dd 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X426 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X426 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X485 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X485 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X485 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X485 2 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X485 2 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X485 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X485 3 
+FocusReducedEvent: SUCCESS uid://A002/X82e118/X485 3 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X51c 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X51c 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 4 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X51c 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X51c 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 7 "Missing CAL_WVR, scan 6"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X51c 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X51c 8 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X5d 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X5d 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X5d 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X6e 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X6e 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X6e 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X81 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X81 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X81 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X815 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/X815 6 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X815 8 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 9 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 9 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 10 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 11 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 11 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 12 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 12 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/X815 12 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 13 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 13 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 14 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 14 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 16 "Missing CAL_DELAY, CAL_WVR, scan 15"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 16 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 17 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 18 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 18 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 19 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 20 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 20 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/X815 20 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 21 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 21 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 22 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 23 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X815 23 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/X815 23 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 24 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/X815 24 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 25 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/X815 26 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/X815 26 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/X9a 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/X9a 1 
+DelayReducedEvent: SUCCESS uid://A002/X82e118/X9a 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xb5b 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xb7c 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xc1a 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xc45 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xcd8 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xcf9 1 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xd4a 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 1 
+PointingReducedEvent: SUCCESS uid://A002/X82e118/Xd68 1 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 2 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 3 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 3 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 4 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 5 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 5 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 6 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 6 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/Xd68 6 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 7 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 7 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 8 
+AmpliCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 8 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 9 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 9 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 10 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 11 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 11 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 12 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 12 
+BandPassReducedEvent: SUCCESS uid://A002/X82e118/Xd68 12 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 13 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 13 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 14 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 14 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 16 "Missing CAL_DELAY, CAL_WVR, scan 15"
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 16 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 17 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 18 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 18 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 19 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 20 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 20 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/Xd68 20 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 21 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 21 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 22 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 23 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82e118/Xd68 23 
+PhaseCurveReducedEvent: SUCCESS uid://A002/X82e118/Xd68 23 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 24 
+AtmosphereReducedEvent: SUCCESS uid://A002/X82e118/Xd68 24 
+WVRReducedEvent: SUCCESS uid://A002/X82e118/Xd68 25 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82e118/Xe41 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82ecb9/X110 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/X110 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X110 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X114 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X114 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 2 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X114 2 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X114 2 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 3 
+FocusReducedEvent: SUCCESS uid://A002/X82ecb9/X114 3 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 4 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X114 4 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X114 4 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 5 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 5 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 6 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 6 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 7 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 7 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 8 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 8 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 9 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 9 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 10 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 10 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 11 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 11 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 12 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 12 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 13 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 13 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X114 14 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/X114 14 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X324 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X324 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X346 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X346 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X34a 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X34a 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X34e 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X34e 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X352 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X352 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X356 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X356 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X377 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X377 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X37b 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X37b 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X37f 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X37f 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X383 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X383 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X387 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X387 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 2 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 2 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 2 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 3 
+FocusReducedEvent: SUCCESS uid://A002/X82ecb9/X38c 3 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 2 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 2 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 2 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X3f2 3 
+FocusReducedEvent: FAIL uid://A002/X82ecb9/X3f2 3 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82ecb9/X45b 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/X45b 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/X45b 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X460 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X460 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X47d 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X47d 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X4ac 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X4ac 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X583 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X583 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X590 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X590 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X5fe 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X5fe 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X617 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X617 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X617 2 
+FocusReducedEvent: SUCCESS uid://A002/X82ecb9/X617 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X637 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X637 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X637 2 
+FocusReducedEvent: SUCCESS uid://A002/X82ecb9/X637 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X658 1 
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X658 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X658 2 
+FocusReducedEvent: SUCCESS uid://A002/X82ecb9/X658 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X684 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/X684 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X684 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X6e0 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/X6e0 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X6e0 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X72f 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/X72f 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X72f 2 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X78a 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/X78a 1 
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/X78a 2 
+  0  
+PointingReducedEvent: FAIL uid://A002/X82ecb9/X888 1 
+  0  
+PointingReducedEvent: SUCCESS uid://A002/X82ecb9/X88c 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82ecb9/Xa9 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/Xa9 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/Xa9 1 
+  0  
+AmpliCalReducedEvent: SUCCESS uid://A002/X82ecb9/Xd4 1 
+PhaseCalReducedEvent: SUCCESS uid://A002/X82ecb9/Xd4 1 
+DelayReducedEvent: SUCCESS uid://A002/X82ecb9/Xd4 1 
+  0  
+WVRReducedEvent: SUCCESS uid://A002/X82ecb9/Xda 1 
+SideBandRatioReducedEvent: SUCCESS uid://A002/X82ecb9/Xda 1 
+  0  
+  0  

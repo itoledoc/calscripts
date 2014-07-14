@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2270139449">
+    <data-source source="LOCAL" name="Oracle - ONLINE.OSF.CL@oraosf.osf.alma.cl" uuid="5ed96f19-7383-4365-898d-b0a4ed9413ce">
+      <driver-ref>oracle</driver-ref>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//oraosf.osf.alma.cl:1521/ONLINE.OSF.CL</jdbc-url>
+      <user-name>almasu</user-name>
+      <user-password>dfcbdfc6dfc7dfcbdf9edfcedfc8dfcb</user-password>
+      <schema-pattern>*.ALMASU *.SOURCECATALOGUE *.SRCCAT_RO</schema-pattern>
+      <default-schemas>*.ALMASU</default-schemas>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
