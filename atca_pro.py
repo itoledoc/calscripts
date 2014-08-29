@@ -7,6 +7,42 @@ pd.options.display.width = 200
 pd.options.display.max_columns = 50
 pd.options.display.max_rows = 20
 
+def calc_ra(h, m, s):
+    ra = h * 15. + m * 15. / 60 + s * 15. / 3600.
+    return ra
+
+
+def calc_dec(d, m, s):
+    d_int = pd.np.int16(d)
+    if d.startswith('-'):
+        dec = -1 * d_int - m / 60. - s / 3600.
+    else:
+        dec = d_int + m / 60. + s / 3600.
+    return dec
+
+
+def distance(ra1, ra2, dec1, dec2):
+    ra1 = pd.np.radians(ra1)
+    ra2 = pd.np.radians(ra2)
+    dec1 = pd.np.radians(dec1)
+    dec2 = pd.np.radians(dec2)
+
+    cos_teta = pd.np.sin(dec1) * pd.np.sin(dec2) + \
+        pd.np.cos(dec1) * pd.np.cos(dec2) * pd.np.cos(ra1 - ra2)
+    teta = pd.np.degrees(pd.np.arccos(cos_teta))
+    return teta * 3600.
+
+
+def match(ra, dec, sources_cat):
+    sel = sources_cat[(sources_cat.DEC > dec - 1) &
+                      (sources_cat.DEC < dec + 1)]
+    ids = sel.apply(
+        lambda r: distance(r['RA'], ra, r['DEC'], dec), axis=1)
+    print ids.idxmin()[0], ids.min()
+    return pd.Series([ids.idxmin()[0], ids.min()], index=['match_alma',
+                                                          'distance'])
+
+
 conx_string = 'almasu/alma4dba@ALMA_ONLINE.OSF.CL'
 
 connection = cx_Oracle.connect(conx_string)
@@ -17,6 +53,9 @@ cursor.execute(sql_measurements)
 measurements = pd.DataFrame(
     cursor.fetchall(),
     columns=[rec[0] for rec in cursor.description]).set_index('MEASUREMENT_ID')
+mgroup = measurements.groupby('SOURCE_ID')
+sources = mgroup.apply(
+    lambda t: t[t.DATE_CREATED == t.DATE_CREATED.max()])
 
 sql_sourcename = 'SELECT * FROM sourcecatalogue.source_name'
 cursor.execute(sql_sourcename)
@@ -58,4 +97,10 @@ atca = pd.io.parsers.read_table(
     names=['ATCA_name', 'RA', 'errRA', 'DEC', 'errDEC', 'f20', 'ef20', 'f93',
            'B3est', 'Flags', 'Flags2', 'ALMAname'],
     usecols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+
+vlbi.RA = vlbi.apply(lambda r: calc_ra(r['ra_h'], r['ra_m'], r['ra_s']), axis=1)
+vlbi.DEC = vlbi.apply(lambda r: calc_dec(r['dec_d'], r['dec_m'], r['dec_s']),
+                      axis=1)
+
+cross = atca.apply(lambda r: match(r['RA'], r['DEC'], sources), axis=1)
 
