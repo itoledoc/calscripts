@@ -33,14 +33,21 @@ def distance(ra1, ra2, dec1, dec2):
     return teta * 3600.
 
 
-def match(ra, dec, sources_cat):
-    sel = sources_cat[(sources_cat.DEC > dec - 1) &
-                      (sources_cat.DEC < dec + 1)]
+def match(ra, dec, name, sources_cat):
+    sel = sources_cat[(sources_cat.DEC > dec - 0.5) &
+                      (sources_cat.DEC < dec + 0.5)]
     ids = sel.apply(
         lambda r: distance(r['RA'], ra, r['DEC'], dec), axis=1)
-    print ids.idxmin()[0], ids.min()
-    return pd.Series([ids.idxmin()[0], ids.min()], index=['match_alma',
-                                                          'distance'])
+    try:
+        print ids.idxmin()[0], ids.min()
+        idx = ids.idxmin()[0]
+        idm = ids.min()
+    except ValueError:
+        idx = 999999
+        idm = 999999
+
+    return pd.Series([idx, idm, name],
+                     index=['match_alma', 'distance', 'name'])
 
 
 conx_string = 'almasu/alma4dba@ALMA_ONLINE.OSF.CL'
@@ -102,5 +109,7 @@ vlbi.RA = vlbi.apply(lambda r: calc_ra(r['ra_h'], r['ra_m'], r['ra_s']), axis=1)
 vlbi.DEC = vlbi.apply(lambda r: calc_dec(r['dec_d'], r['dec_m'], r['dec_s']),
                       axis=1)
 
-cross = atca.apply(lambda r: match(r['RA'], r['DEC'], sources), axis=1)
+cross = atca.apply(lambda r: match(r['RA'], r['DEC'], r['ATCA_name'], sources),
+                   axis=1)
 
+atca2 = pd.merge(atca, cross, left_index=True, right_index=True)
