@@ -135,7 +135,7 @@ vlbi = pd.io.parsers.read_table(
     usecols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], dtype=dt)
 
 atca = pd.io.parsers.read_table(
-    '/home/itoledo/Work/calscripts/ATCA_newCandidates_sorted.txt',
+    '/home/itoledo/Work/calscripts/ATC.txt',
     skiprows=24, sep='\t',
     names=['ATCA_name', 'RA', 'errRA', 'DEC', 'errDEC', 'f20', 'ef20', 'f93',
            'B3est', 'Flags', 'Flags2', 'ALMAname'],
