@@ -176,7 +176,7 @@ atca4.columns = pd.Index([u'ATCA_name', u'RA', u'errRA', u'DEC', u'errDEC',
                           u'match_grid', u'distance_grid'], dtype='object')
 
 atca_select = atca4[
-    (atca4.distance_grid <= 15 * 3600.) & (atca4.distance_grid > 1.9) &
+    (atca4.distance_grid > 15 * 3600.) & (atca4.distance_grid > 1.9) &
     (atca4.Flags == 'g') & (atca4.Flags2 == 'nnn') & (atca4.distance_vlbi < 5)]
 
 atca_sel_A = pd.merge(
