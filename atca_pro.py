@@ -101,6 +101,7 @@ def match_weak(ra, dec, name, sources_cat):
     return pd.Series([idx, idm, name],
                      index=['match_weak', 'distance', 'name'])
 
+
 def split_ra(lista):
     hour = float(lista[0]) * 15.
     minu = float(lista[1]) * 15. / 60.
@@ -180,7 +181,7 @@ atca = pd.io.parsers.read_table(
     usecols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
 
 grids = pd.io.parsers.read_table(
-    'grid_sources_20140830.csv', sep=',',
+    '/home/itoledo/Work/calscripts/grid_sources_20140830.csv', sep=',',
     names=['RA', 'RA_err', 'DEC', 'DEC_err', 'names'])
 
 vlbi['RA'] = vlbi.apply(
@@ -288,4 +289,4 @@ cross_vla_vlbi = vla.apply(
     lambda r: match_vlbi(r['RA'], r['DEC'], r['vla_name'], vlbi), axis=1)
 
 cross_vla_alma = vla.apply(
-    lambda r: match_alma(r['RA'], r['DEC'], r['ATCA_name'], sources), axis=1)
+    lambda r: match_alma(r['RA'], r['DEC'], r['vla_name'], sources), axis=1)
