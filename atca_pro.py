@@ -275,7 +275,7 @@ weak = pd.read_table('/home/itoledo/Work/calscripts/WeakSourceList2.csv',
 
 vla = pd.read_table(
     'Work/calscripts/vla_candidates2.csv', sep=' ', skipinitialspace=True
-)[['vla_name','p_err','ra','dec','est_flux']]
+)[['vla_name', 'p_err', 'ra', 'dec', 'est_flux']]
 
 vla['RA'] = vla.apply(lambda r: split_ra(r['ra'].split(':')), axis=1)
 vla['DEC'] = vla.apply(lambda r: split_dec(r['dec'].split(':')), axis=1)
@@ -289,4 +289,6 @@ cross_vla_vlbi = vla.apply(
     lambda r: match_vlbi(r['RA'], r['DEC'], r['vla_name'], vlbi), axis=1)
 
 cross_vla_alma = vla.apply(
-    lambda r: match_alma(r['RA'], r['DEC'], r['vla_name'], sources), axis=1)
+    lambda r: match_alma(
+        r['RA'], r['DEC'], r['vla_name'], sources[sources.CATALOGUE_ID == 5]),
+    axis=1)
