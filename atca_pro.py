@@ -84,6 +84,44 @@ def match_grid(ra, dec, name, sources_cat):
     return pd.Series([idx, idm, name],
                      index=['match_grid', 'distance', 'name'])
 
+
+def match_weak(ra, dec, name, sources_cat):
+    sel = sources_cat[(sources_cat.RA_vlbi > dec - 2) &
+                      (sources_cat.DEC_vlbi < dec + 2)]
+    ids = sel.apply(
+        lambda r: distance(r['RA_vlbi'], ra, r['DEC_vlbi'], dec), axis=1)
+    try:
+        print ids.idxmin(), ids.min()
+        idx = ids.idxmin()
+        idm = ids.min()
+    except ValueError:
+        idx = 999999
+        idm = 999999
+
+    return pd.Series([idx, idm, name],
+                     index=['match_weak', 'distance', 'name'])
+
+def split_ra(lista):
+    hour = float(lista[0]) * 15.
+    minu = float(lista[1]) * 15. / 60.
+    sec = float(lista[2]) * 15. / 3600.
+    return hour + minu + sec
+
+
+def split_dec(lista):
+    if float(lista[0]) == 0 and lista[0].startswith('-'):
+        signo = -1.
+    elif float(lista[0]) < 0:
+        signo = -1
+    else:
+        signo = 1
+
+    deg = float(lista[0])
+    minu = signo * float(lista[1]) / 60.
+    sec = signo * float(lista[2]) / 3600.
+    return deg + minu + sec
+
+
 conx_string = 'almasu/alma4dba@ALMA_ONLINE.OSF.CL'
 
 connection = cx_Oracle.connect(conx_string)
@@ -176,12 +214,13 @@ atca4.columns = pd.Index([u'ATCA_name', u'RA', u'errRA', u'DEC', u'errDEC',
                           u'match_grid', u'distance_grid'], dtype='object')
 
 atca_select = atca4[
-    (atca4.distance_grid > 15 * 3600.) & (atca4.distance_grid > 1.9) &
+    (atca4.distance_grid > 1.9) &
     (atca4.Flags == 'g') & (atca4.Flags2 == 'nnn') & (atca4.distance_vlbi < 5)]
 
 atca_sel_A = pd.merge(
     atca_select, sources, left_on='match_alma', right_index=True, how='left',
     suffixes=['_atca', '_alma'])
+
 atca_sel_A.columns = pd.Index(
     [u'ATCA_name', u'RA_atca', u'errRA_atca', u'DEC_atca', u'errDEC_atca',
      u'f20', u'ef20', u'f93', u'B3est', u'Flags', u'Flags2', u'ALMAname',
@@ -228,3 +267,25 @@ atca_sel_AVG.columns = pd.Index(
      u'DEC_UNCERTAINTY_alma', u'FREQUENCY', u'FLUX', u'FLUX_UNCERTAINTY',
      u'DATE_OBSERVED', u'VALID', u'IVS', u'name', u'RA_vlbi', u'DEC_vlbi',
      u'Grid_close'], dtype='object')
+
+
+weak = pd.read_table('/home/itoledo/Work/calscripts/WeakSourceList2.csv',
+                     sep=',', header=0)
+
+vla = pd.read_table(
+    'Work/calscripts/vla_candidates2.csv', sep=' ', skipinitialspace=True
+)[['vla_name','p_err','ra','dec','est_flux']]
+
+vla['RA'] = vla.apply(lambda r: split_ra(r['ra'].split(':')), axis=1)
+vla['DEC'] = vla.apply(lambda r: split_dec(r['dec'].split(':')), axis=1)
+
+cross_weak = vla.apply(
+    lambda r: match_weak(r['RA'], r['DEC'], r['vla_name'], weak), axis=1)
+
+vla_weak = pd.merge(vla, cross_weak, left_on='vla_name', right_on='name')
+
+cross_vla_vlbi = vla.apply(
+    lambda r: match_vlbi(r['RA'], r['DEC'], r['vla_name'], vlbi), axis=1)
+
+cross_vla_alma = vla.apply(
+    lambda r: match_alma(r['RA'], r['DEC'], r['ATCA_name'], sources), axis=1)
