@@ -3,6 +3,7 @@ __author__ = 'itoledo'
 import cx_Oracle
 from numpy import dtype
 import pandas as pd
+import ephem
 pd.options.display.width = 200
 pd.options.display.max_columns = 50
 pd.options.display.max_rows = 20
@@ -11,6 +12,14 @@ pd.options.display.max_rows = 20
 def calc_ra(h, m, s):
     ra = h * 15. + m * 15. / 60 + s * 15. / 3600.
     return ra
+
+
+def create_obj(ra, dec):
+    obj = ephem.FixedBody()
+    obj._ra = pd.np.radians(ra)
+    obj._dec = pd.np.radians(dec)
+    obj.compute()
+    return obj
 
 
 def calc_dec(d, m, s):
@@ -22,28 +31,39 @@ def calc_dec(d, m, s):
     return dec
 
 
-def distance(ra1, ra2, dec1, dec2):
-    ra1 = pd.np.radians(ra1)
-    ra2 = pd.np.radians(ra2)
-    dec1 = pd.np.radians(dec1)
-    dec2 = pd.np.radians(dec2)
+def distance(obj1, obj2):
 
-    cos_teta = pd.np.sin(dec1) * pd.np.sin(dec2) + \
-        pd.np.cos(dec1) * pd.np.cos(dec2) * pd.np.cos(ra1 - ra2)
-    teta = pd.np.degrees(pd.np.arccos(cos_teta))
-    return teta * 3600.
+    return ephem.separation(obj1, obj2)
 
 
-def match_alma(ra, dec, name, sources_cat):
+def match_alma(obj, dec, name, sources_cat):
     sel = sources_cat[(sources_cat.DEC > dec - 0.5) &
                       (sources_cat.DEC < dec + 0.5)]
     ids = sel.apply(
-        lambda r: distance(r['RA'], ra, r['DEC'], dec), axis=1)
+        lambda r: distance(obj, r['obj']), axis=1)
     try:
-        print ids.idxmin(), ids.min()
+        print name, ids.idxmin(), ids.min()
         idx = ids.idxmin()
         idm = ids.min()
-    except ValueError:
+    except ValueError or IndexError:
+        idx = 999999
+        idm = 999999
+
+    return pd.Series([idx, idm, name],
+                     index=['match_alma', 'distance', 'name'])
+
+
+def closest_alma(obj, dec, name, sources_cat):
+    sel = sources_cat[(sources_cat.DEC > dec - 0.5) &
+                      (sources_cat.DEC < dec + 0.5)]
+    ids = sel.apply(
+        lambda r: distance(obj, r['obj']), axis=1)
+    try:
+        ids.sort()
+        print name, ids.index[1], pd.np.degrees(ids.iloc[1]) * 3600.
+        idx = ids.index[1]
+        idm = pd.np.degrees(ids.iloc[1]) * 3600.
+    except IndexError:
         idx = 999999
         idm = 999999
 
