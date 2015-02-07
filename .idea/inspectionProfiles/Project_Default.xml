@@ -2,18 +2,6 @@
   <profile version="1.0" is_locked="false">
     <option name="myName" value="Project Default" />
     <option name="myLocal" value="false" />
-    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ignoredIdentifiers">
-        <value>
-          <list size="4">
-            <item index="0" class="java.lang.String" itemvalue="cx_Oracle.*" />
-            <item index="1" class="java.lang.String" itemvalue="pandas.io" />
-            <item index="2" class="java.lang.String" itemvalue="numpy.sign" />
-            <item index="3" class="java.lang.String" itemvalue="numpy.abs" />
-          </list>
-        </value>
-      </option>
-    </inspection_tool>
     <inspection_tool class="SpellCheckingInspection" enabled="true" level="TYPO" enabled_by_default="true">
       <option name="processCode" value="false" />
       <option name="processLiterals" value="false" />

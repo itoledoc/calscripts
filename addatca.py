@@ -77,10 +77,20 @@ class CalibratorCatalogUpdate:
         for line in lines[1:]:
             _line = line.split(',')
             sourceId = int(_line[1])
-            sourceName = str(_line[3])
+            sourceName = str(_line[3]).strip('\n')
             print sourceId, sourceName
 
             self.s.sourcecat.addSourceName(sourceId, sourceName)
+
+    def removeName(self, filename):
+        f = open(filename, 'r')
+        lines = f.readlines()
+        for line in lines[1:]:
+            _line = line.split(',')
+            nameId = int(_line[1])
+            sourceId = int(_line[4])
+            print nameId, sourceId
+            self.s.sourcecat.removeSourceName(sourceId, nameId)
 
     def addnewMeasurement(self, filename, dryrun=True):
         """
